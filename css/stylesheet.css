@@ -59,7 +59,8 @@ body{
 }
 
 .col{
-  background-color: lightgray;
+  color: white;
+  background-color:darkcyan;
   padding: 2rem;
   border-radius: 20px;
 }
@@ -86,6 +87,20 @@ body{
 @media (min-width: 900px) {
   .cols { grid-template-columns: repeat(2,1fr); 
   }
+}
+
+/* Card Group */
+
+.card-group{
+  margin-top: 5%;
+  gap: 2rem;
+}
+
+.card{
+  color: white;
+  text-align: center;
+  background-color: darkcyan;
+  border-radius: 20px;
 }
 
 /* Carousel */
