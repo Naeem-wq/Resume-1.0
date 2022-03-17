@@ -24,19 +24,14 @@
 
 
 <body>
-
-  <!-- Button trigger modal -->
-  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    Launch demo modal
-  </button>
-
+  
   <!-- Modal -->
 
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
+  <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Warning!!!</h5>
+          <h5 class="modal-title" id="ModalLabel">Warning!!!</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -258,7 +253,13 @@
       <input type="yourEmail" name="" value=""> <br><br>
       <label>About:</label> <br>
       <textarea name="yourMessage" rows="10" cols="30"></textarea> <br><br>
-      <input type="submit" class="btn" name="">
+
+      <!-- Button trigger modal -->
+      <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#Modal">
+        Submit
+      </button>
+      <!-- /Button trigger modal -->
+
     </form><br>
 
     <a href="https://www.linkedin.com/in/naeem-witbooi-52617118b/" target="_blank"><img class="icons"
