@@ -1,18 +1,20 @@
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
 
 /* Header */
 
-#header{
+#header {
   text-align: center;
   color: white;
   font-weight: bolder;
   background-image: url(/images/dreamyWorld.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 2%; 
+  padding-bottom: 2%;
 }
 
-#image{
+#image {
   width: 250px;
   height: 250px;
   margin-bottom: 5%;
@@ -24,50 +26,50 @@
 
 /* Sidebar */
 
-.navbar{
+.navbar {
   text-align: right;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-a{
+a {
   color: darkgray;
 }
 
-a:visited{
-color: rgb(42, 44, 165);
+a:visited {
+  color: rgb(42, 44, 165);
 }
 
-a:hover{
+a:hover {
   color: green;
 }
 
 /* Main */
 
-body{
+body {
   font-family: sans-serif;
   font-size: 110%;
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 1rem;
 }
 
-#content{
+#content {
   margin-top: 2%;
 }
 
-.col{
+.col {
   color: white;
-  background-color:darkcyan;
+  background-color: darkcyan;
   padding: 2rem;
   border-radius: 20px;
 }
 
-.cols{
+.cols {
   margin: auto;
   display: grid;
   grid-gap: 2rem;
@@ -75,30 +77,32 @@ body{
 
 /* Media Queries */
 
-@media (min-width: 380px){
+@media (min-width: 380px) {
   .cols {
     grid-template-columns: repeat(1, 1fr);
   }
 }
 
 @media (min-width: 430px) {
-  .cols { grid-template-columns: repeat(2,1fr); 
+  .cols {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 900px) {
-  .cols { grid-template-columns: repeat(2,1fr); 
+  .cols {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 /* Card Group */
 
-.card-group{
+.card-group {
   margin-top: 5%;
   gap: 2rem;
 }
 
-.card{
+.card {
   color: white;
   text-align: center;
   background-color: darkcyan;
@@ -107,7 +111,7 @@ body{
 
 /* Carousel */
 
-.carousel-item{
+.carousel-item {
   margin-top: 4%;
   margin-bottom: 2%;
 }
@@ -116,55 +120,56 @@ body{
 
 /* Form */
 
-label{
-  color: white; 
+label {
+  color: white;
   font-family: sans-serif;
 }
 
-input{
-  background: lightgray; 
-  border-radius:10px;
+input {
+  background: lightgray;
+  border-radius: 10px;
   border: solid black;
 }
 
-textarea{
-  background: lightgray; 
+textarea {
+  background: lightgray;
   border: solid black;
-  border-radius:10px;
+  border-radius: 10px;
 }
 
 .btn {
-  background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+  background-image: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%);
 }
 
-.btn{
-   margin: 10px;
-   padding: 15px 45px;
-   text-align: center;
-   text-transform: uppercase;
-   transition: 0.5s;
-   background-size: 200% auto;
-   color: white;            
-   box-shadow: 0 0 20px #eee;
-   border-radius: 10px;
- }
+.btn {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+}
 
- .btn:hover {
-   background-position: right center; /* change the direction of the change here */
-   color: #fff;
-   text-decoration: none;
- }
+.btn:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
 
- /* Footer */
+/* Footer */
 
- footer {
+footer {
   text-align: center;
   color: #FCF7F8;
   padding: 2%;
   margin-bottom: 1%;
 }
 
-.icons{ 
+.icons {
   width: 3rem;
   height: auto;
   border-radius: 50%;
@@ -174,6 +179,6 @@ textarea{
   box-shadow: 0 0 20px #eee;
 }
 
-.icons:hover{
+.icons:hover {
   transform: translateY(-1rem)
 }
