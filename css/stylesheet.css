@@ -83,9 +83,9 @@ body {
   }
 }
 
-@media (min-width: 430px) {
+@media (min-width: 700px) {
   .cols {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
@@ -107,6 +107,7 @@ body {
   text-align: center;
   background-color: darkcyan;
   border-radius: 20px;
+  padding-top: 2rem;
 }
 
 /* Carousel */
@@ -116,7 +117,9 @@ body {
   margin-bottom: 2%;
 }
 
-
+.carousel-inner img {
+  margin: auto;
+}
 
 /* Form */
 
